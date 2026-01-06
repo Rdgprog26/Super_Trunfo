@@ -86,6 +86,8 @@ int main() {
  
 // Área para exibição dos Resultados das comparações dos poderes de cada variável das 2 cartas
 
+printf ("Comparação do poder das cartas:\n");
+
 printf ("A Carta %s tem o valor de poder População maior que %s: %d\n", Código_1 , Código_2 , resultado_populacao);
 printf ("A Carta %s tem o valor de poder Área maior que %s: %d\n", Código_1 , Código_2 , resultado_área);
 printf ("A Carta %s tem o valor de poder PIB maior que %s: %d\n", Código_1 , Código_2 , resultado_pib);
